@@ -2,8 +2,12 @@
   color: blue;
 }
 
+.body-1 {
+    background-color: rgb(78, 116, 138);
+}
+
 #paragraph-1 {
-  color: rgb(217, 54, 49);
+  color: rgb(49, 102, 217);
 }
 
 #paragraph-2 {
@@ -34,12 +38,39 @@
 
 /* Add a color to the active/current link */
 .header-1 a.active {
-  background-color: #4CAF50;
+  background-color: rgb(76, 107, 175);
   color: white;
 }
 
 .footer {
-    background-color: coral
+    background-color: #333;
+    overflow: hidden;
 }
+
+.header-2 {
+    color: #f2f2f2;   
+}
+
+.footer div {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-gap: 1.5em;
+  }
+   
+  .grid__item {
+    width: 100%;
+    height: 200px;
+    background: rgb(76, 107, 175);
+  }
 /* We used 3 different ways to specify color:
 the word "blue", rgb selectors and hex codes */
